@@ -214,16 +214,16 @@ function isOdd(number){
  * @return {string} the score represented as a letter grade
  */
 function letterGrade(score, total){
- var scoreTotal = score / total;
+ var scoreTotal = score / total ;
   if (scoreTotal >= 0.90){
     return ("A");
-  }else if (scoreTotal >= 0.80 && scoreTotal <= 0.89){
+  }else if (scoreTotal < 0.90 && scoreTotal >= 0.80){
     return ("B");
 
-  }else if(scoreTotal >= 0.70 && scoreTotal <= 0.79){
+  }else if(scoreTotal < 0.80 && scoreTotal >= 0.70){
     return ("C");
 
-  }else if(scoreTotal >= 0.60 && scoreTotal <= 0.69875){
+  }else if(scoreTotal < 0.70 && scoreTotal >= 0.60){
     return ("D");
 
   }else{
@@ -260,3 +260,5 @@ function combine(word1, word2){
  * @param {number} radius
  * @return {object} circle
  */
+
+ 
