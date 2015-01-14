@@ -149,6 +149,10 @@ function isGreaterThan(a,b){
  * @return {boolean} the numbers are equal
  */
 
+ function areEqual(a,b){
+  return a === b;
+ }
+
 /**
  * Returns the smallest value of two numbers.
  * @param {number} x
