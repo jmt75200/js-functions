@@ -174,6 +174,15 @@ function minimum(x,y){
  * @param {number} y
  * @return {number} the largest number
  */
+function maximum(x,y){
+  if (x >= y){
+    return x;
+  }else{
+    return y;
+  }
+}
+
+
 
 /**
  * Returns true if `n` is even.
