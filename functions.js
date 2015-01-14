@@ -116,6 +116,16 @@ function calculate(operation, x, y){
  * @return {boolean} `a` is larger than `b`
  */
 
+function isGreaterThan(a,b){
+  // if (a > b){
+  //   return true;
+  // }else{
+  //   return false;
+  // }
+  return a > b;
+}
+
+
 /**
  * Returns true if `a` is less than `b`.
  * @param {number} a
