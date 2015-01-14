@@ -182,13 +182,15 @@ function maximum(x,y){
   }
 }
 
-
-
 /**
  * Returns true if `n` is even.
  * @param {number} n
  * @return {boolean} the number is even
  */
+function isEven(number){
+  return number % 2 === 0;
+}
+
 
 /**
  * Returns true if `n` is odd.
