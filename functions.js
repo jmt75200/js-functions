@@ -197,6 +197,10 @@ function isEven(number){
  * @param {number} n
  * @return {boolean} the number is odd
  */
+function isOdd(number){
+  return number % 2 !== 0 ;
+}
+
 
 /**
  * Returns a letter grade.
