@@ -240,12 +240,18 @@ function letterGrade(score, total){
  * @param {object} restaurant represents a restaurant
  */
 
+
+
 /**
  * Joins two strings with a space.
  * @param {string} word1
  * @param {string} word2
  * @return {string} joined the words joined with a space
  */
+function combine(word1, word2){
+  return (word1 + " " + word2);
+}
+
 
 /**
  * Returns a circle object with the properties `circumference` and `area`.
