@@ -213,6 +213,25 @@ function isOdd(number){
  * @param {number} total maximum possible score
  * @return {string} the score represented as a letter grade
  */
+function letterGrade(score, total){
+ var scoreTotal = score / total;
+  if (scoreTotal >= 0.90){
+    return ("A");
+  }else if (scoreTotal >= 0.80 && scoreTotal <= 0.89){
+    return ("B");
+
+  }else if(scoreTotal >= 0.70 && scoreTotal <= 0.79){
+    return ("C");
+
+  }else if(scoreTotal >= 0.60 && scoreTotal <= 0.69875){
+    return ("D");
+
+  }else{
+    return ("F");
+  }
+
+}
+
 
 /**
  * Checks if a `restaurant` object has are `views` field.
