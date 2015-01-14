@@ -14,6 +14,10 @@
  * @return {number}
  */
 
+ function increase(number){
+  return number += 1;
+ }
+
 /**
  * Subtracts one from a given number.
  * @param {number} n
