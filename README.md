@@ -225,8 +225,8 @@ If it does, increase it by 1. If it does not,
 set its `reviews` field to 1.
 
 **Parameters**
-
-**restaurant**: object, represents a restaurant
+@param {object} restaurant   represents a restaurant object
+ * @return {object} restaurant
 
 
 combine(word1, word2)
